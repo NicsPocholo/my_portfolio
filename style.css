@@ -9,42 +9,119 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: #000000;
-
 }
+
 
 header{
-    
+    width:100% ;
+    position: fixed;
     background-color: rgb(0, 53, 53);
-    padding: 20px;
-}
-header a{
-    text-decoration: none;
-    color:white;
+    align-items: center;
+    z-index: 100;
+    padding: 15px;
+    font-size: 20px;
+
+    
+    
 }
 
-.nav-links {
-    gap: 20px;
-    display:flex;
-    justify-content: space-between;
+header a{
+    
+    text-decoration: none;
+    color:white;
     
 }
+
 nav ul {
+    justify-content: space-between;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     list-style: none;
     margin: 0;
     padding: 0;
+
+}
+nav a:hover{
+    color: #15aa02;
+    text-shadow: 0 0 25px #15aa02, 
+                0 0 50px #15aa02;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.logo{
+    margin-right:auto
+}
+.logo:hover{
+    color: #15aa02;
+    text-shadow: 0 0 25px #15aa02, 
+                0 0 50px #15aa02;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+span{
+    color: #0b5e00;
+}
+
+
+nav ul li:last-child {
+    margin-left: auto;
 }
 
 
 
 
+/*----------------END OF HEADER -------------*/
 
 
-/* END OF HEADER */
-
+/*----------------START OF HOME NAV -------------*/
 #home{
-    
-    padding: 50px;
+    text-decoration: none;
+    min-height: 100vh;
+    padding: 100px 50px;
 }
 
+
+
+
+
+/*----------------START OF ABOUT NAV -------------*/
+#about{    
+    min-height: 100vh;
+    padding: 100px 50px;
+}
+/*----------------END OF ABOUT NAV -------------*/
+
+
+
+
+
+
+/*----------------END OF HOME NAV -------------*/
+
+
+/*----------------START OF PROJECT NAV -------------*/
+#project{
+    min-height: 100vh;
+    padding: 100px
+}
+/*----------------END OF PROJECT NAV -------------*/
+
+
+
+/*----------------START OF SKILLS NAV -------------*/
+#skills{
+    min-height: 100vh;
+    padding: 100px
+}
+/*----------------END OF SKILLS NAV -------------*/
+
+
+
+/*----------------START OF CONTACT NAV -------------*/
+#contact{
+    min-height: 100vh;
+    padding: 100px
+}
+/*----------------END OF CONTACT NAV -------------*/
