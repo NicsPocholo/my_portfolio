@@ -2,114 +2,122 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
-<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
 </head>
 
 <body>
+
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+        <nav>
 
-            <!-- Brand -->
-            <a class="navbar-brand fw-bold" href="#home">
-                <span class="text-success">P</span>ocholo
-            </a>
-
-            <!-- Mobile toggle -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#mainNavbar"
-                aria-controls="mainNavbar"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="mainNavbar">
-                <ul class="navbar-nav ms-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#project">Project</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-
-                </ul>
+            <div class="logo">
+                <a href="#home">
+                    <span>P</span>ocholo
+                </a>
             </div>
 
-        </div>
-    </nav>
-</header>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
 
 
-<br>
     <section id="home">
-        
+
         <div class="home-text">
-            <p class="greet">Greetings, I am Pocholo.</p>
-            <h1>Dedicated to become a <span style="color:blue">Full-stack</span> Developer</h1>
-            <p>Aspiring Full-stack Developer with a passion for creating innovative and user-friendly web applications. I am dedicated to continuous learning and staying up-to-date with the latest technologies in the field.</p>
+
+            <p class="greet">
+                <b>Greetings, I am <span>Pocholo</span></b>
+            </p>
+
+            <h1>
+                Dedicated to become a
+                <span style="color:#15aa02">Full-stack</span> Developer
+            </h1>
+
         </div>
+
+        <div class="home-image">
+
+            <img src="image.jpg" alt="Image of Pocholo">
+
+        </div>
+
     </section>
-<hr>
 
 
     <section id="about">
-        <h2>About Me</h2>
-        <img src="image.jpg" alt="Image of Pocholo" width="200" height="200">
-        <p>Pocholo S. Nicolas</p>
-        <p>Bachelor of Science in Compute Science</p>   
-        <p>Tarlac State Univeristy</p>  
+
+        <h2>About <span style="color: #15aa02">Me</span></h2>
+
+        <p>
+            I am <span style="color:#ffffff">Pocholo Nicolas</span>, a <span style="color:#ffffff">Bachelor of Science in Computer Science</span> student at <span style="color:#ffffff">Tarlac State University</span> and an aspiring Full-Stack Developer passionate about creating <span style="color: #ffffff">innovative, responsive, and user-friendly</span> web applications while continuously learning and keeping up with the latest technologies.
+        </p>
+
     </section>
-<hr>
+
+
     <section id="project">
-        <h3>Projects</h3>
+
+        <h2 >Projects</h2>
+
         <ul>
-            <li>On stand-by</li>
-            
+            <b><li  style="color:#15aa02">Work in progress</li></b>
         </ul>
+
     </section>
-<hr>
-    <section id="skills">Skills</section>
-<hr>    
-    <section id="contact">Contact  </section>
-<hr>
-    <footer>copyright</footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <section id="skills">
+
+        <div>
+            <p>Currently <span style="color:#15aa02">studying</span> and <span style="color:#15aa02">improving</span> my skills in</p>
+            <div class="sites">
+                <img src ="html5-logo.png">
+                <img src ="css logo.png">   
+            </div>    
+                <div class="marks">
+                    <p>with a focus on creating responsive and user-friendly web pages.</p>
+                </div>
+            </div>
+        
+        
+
+    </section>
+
+
+    <section id="contact">
+        
+            <h2>Contacts</h2>
+        
+        <div class="soc-links">
+    
+            <a href="https://github.com/NicsPocholo" target="_blank">
+                <img src="github logo.png" alt="GitHub">
+            </a>
+
+            <a href="https://facebook.com/Pocholo Nicolas" target="_blank">
+                <img src="fb logo.png" alt="Facebook">
+            </a>
+        </div>
+
+        <footer>
+            @2026 Pocholo Nicolas, All Rights Reserved.
+        </footer>
+</section>
+
+
 </body>
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
